@@ -1,0 +1,40 @@
+header {
+    background-color: #EAC926;
+    font-family: Roboto;
+}
+header .logo{
+    
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+header .burger-menu{
+    text-align: center;
+    background-color: #1259c3;
+    color: white;
+}
+
+header .lupa{
+    background-color: gainsboro;
+    border-color: 2px solid black;
+    width: 20px;
+    height: 20px;
+
+}
+
+footer section{
+    text-align: center;
+    font-family: roboto;
+}
+
+footer section i{
+    font-size: 40px;
+    color: blue;
+}
+
