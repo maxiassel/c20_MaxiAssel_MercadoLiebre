@@ -15,8 +15,16 @@ ul {
 }
 
 header .burger-menu{
-    text-align: center;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
     background-color: #1259c3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
 }
 
@@ -36,5 +44,9 @@ footer section{
 footer section i{
     font-size: 40px;
     color: blue;
+}
+
+header .compra{
+    margin-top: 20px;
 }
 
