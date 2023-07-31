@@ -1,12 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
 header {
     background-color: #EAC926;
     font-family: Roboto;
-}
-
-header .logo {
-    background-color: NONE;
-    width: 200px;
-
 }
 
 a {
@@ -17,6 +18,27 @@ ul {
     padding: 0;
     list-style: none;
 }
+
+header div.logoybarra{
+    display: flex;
+}
+
+div.logo{
+    width: 50%;
+
+}
+.barra_busqueda{
+   width: 50%;
+display: flex;
+align-items: center;
+}
+
+nav.header_menu{
+    display: none;
+    
+}
+
+
 
 header .burger-menu {
     font-size: 20px;
@@ -43,35 +65,59 @@ header .lupa {
 main {
     width: 90%;
     margin: 0 auto;
-    background-color:#ebe8e8;
+    background-color: #ebe8e8;
 }
 
-    main .camion{
-        color: green;
-        border: solid 1px green;
-        border-radius: 50%;
-        padding: 19px;
-    }
-    main .divcamion{
-        margin-bottom: 28px;
-    }
+main .main_banner img {
+    width: 100%;
+}
+
+main .camion {
+    color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+    padding: 19px;
+}
+
+main .divcamion {
+    display: flex;
+    justify-content: end;
+}
+article div.preciodescuento{
+    display: flex;
+}
+article h3.precio{
+    width: 30%;
+}
+article h4.descuento{
+    width: 70%;
+    color: rgb(115, 184, 13);
+}
 
 main section article {
     margin-bottom: 10px;
     background-color: white;
 }
+article{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
 
 section {
     border-top: 1px solid #ebebeb;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-footer section {
+footer div {
     text-align: center;
     font-family: roboto;
 }
 
-footer section i {
+footer div i {
     font-size: 40px;
     color: blue;
 }
@@ -81,11 +127,30 @@ header .compra {
 }
 
 @media (min-width: 361px) {
-    article{
+    article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 49%;
     }
-  }
 
-  @media (min-width: 769px) {
-    
-  }
+    nav.header_menu{
+        display: block;
+        display: flex;
+    justify-content: space-between;
+    }
+
+    ul.ul1{
+        display: flex;
+    }
+    ul.ul2{
+        display: flex;
+    }
+    header .burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    article{
+        width: 24%;
+    }
+}
