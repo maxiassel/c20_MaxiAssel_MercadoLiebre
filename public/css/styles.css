@@ -172,6 +172,32 @@ main div.registro_caja{
     margin-bottom: 20px;
 }
 
+div.registro_enviar input{
+    background-color: #1259c3;
+    font-family: system-ui;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+}
+div.registro_enviar input:hover{
+    background-color: cornflowerblue;
+}
+
+div.login_iniciar input{
+    background-color: #1259c3;
+    font-family: system-ui;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+}
+div.login_iniciar input:hover{
+   
+    background-color: cornflowerblue 
+}
+
+
 @media (min-width: 361px) {
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
