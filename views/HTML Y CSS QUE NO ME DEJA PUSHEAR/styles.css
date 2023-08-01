@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #EAC926;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+header div.logoybarra{
+    display: flex;
+}
+
+div.logo{
+    width: 50%;
+    max-width: 300px;
+}
+.barra_busqueda{
+   width: 50%;
+display: flex;
+align-items: center;
+}
+
+nav.header_menu{
+    display: none;
+    
+}
+
+
+
+
+header .burger-menu {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #1259c3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+header .lupa {
+    background-color: gainsboro;
+    border-color: 2px solid black;
+    width: 20px;
+    height: 20px;
+
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ebe8e8;
+}
+
+main .main_banner img {
+    width: 100%;
+}
+
+main .camion {
+    color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+    padding: 19px;
+}
+main .camion:hover {
+    animation: rotate 2s ease ;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+main .divcamion {
+    display: flex;
+    justify-content: end;
+}
+article div.preciodescuento{
+    display: flex;
+}
+article h3.precio{
+    width: 30%;
+}
+article h4.descuento{
+    width: 70%;
+    color: rgb(115, 184, 13);
+}
+
+main section article {
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 2px;
+}
+article{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div {
+    text-align: center;
+    font-family: roboto;
+}
+
+footer div i {
+    font-size: 40px;
+    color: blue;
+}
+
+header .compra {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+main.main_login{
+    width: 100%;
+    background-color: #c6cfb5;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+main div.login_caja{
+    background-color: #dfe1d5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    max-width: 350px;
+    max-height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: system-ui;
+}
+main.main_registro{
+    width: 100%;
+    background-color: #c6cfb5;
+    height: 469px;
+    display: flex;
+    justify-content: center;
+}
+
+main div.registro_caja{
+    background-color: #dfe1d5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    max-width: 350px;
+    max-height: 476px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: system-ui;
+    margin-bottom: 20px;
+}
+
+div.registro_enviar input{
+    background-color: #1259c3;
+    font-family: system-ui;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+}
+div.registro_enviar input:hover{
+    background-color: #0022AA
+}
+
+div.login_iniciar input{
+    background-color: #1259c3;
+    font-family: system-ui;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+}
+div.login_iniciar input:hover{
+   
+    background-color: #0022AA 
+}
+
+h4.producto{
+    display: none;
+}
+
+@media (min-width: 361px) {
+    
+    article {
+        
+        width: 49%;
+    }
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    nav.header_menu{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    nav.header_menu ul li{
+        padding: 6px;
+    }
+
+    ul.ul1{
+        display: flex;
+    }
+    ul.ul2{
+        display: flex;
+    }
+    header .burger-menu {
+        display: none;
+    }
+}
+h4.producto{
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+article:hover h4{
+    height: 20px;
+}
+
+
+@media (min-width: 769px) {
+    article{
+        width: 24%;
+    }
+
+    footer{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    footer div{
+        width: 30%;
+    }
+    footer div h4{
+        margin-top: 20px;
+    }
+}
