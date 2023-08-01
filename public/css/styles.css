@@ -126,6 +126,52 @@ header .compra {
     margin-top: 20px;
 }
 
+main.main_login{
+    width: 100%;
+    background-color: #c6cfb5;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+main div.login_caja{
+    background-color: #dfe1d5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    max-width: 350px;
+    max-height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: system-ui;
+}
+main.main_registro{
+    width: 100%;
+    background-color: #c6cfb5;
+    height: 469px;
+    display: flex;
+    justify-content: center;
+}
+
+main div.registro_caja{
+    background-color: #dfe1d5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    max-width: 350px;
+    max-height: 476px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: system-ui;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 361px) {
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);

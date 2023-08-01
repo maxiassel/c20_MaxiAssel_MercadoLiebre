@@ -23,10 +23,10 @@
                 <button type="submit">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-    
+
             </form>
         </div>
-        
+
         <div class="compra">
             <i class="fa-solid fa-hand-holding-dollar"></i>
             Comprá en cuotas y sin tarjeta de crédito
@@ -39,8 +39,8 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul class="ul2">
-                <li><a href="">Creá tu cuenta<i class="fa-regular fa-address-card"></i></a></li>
-                <li><a href="">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/register">Creá tu cuenta<i class="fa-regular fa-address-card"></i></a></li>
+                <li><a href="login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="">Mis compras <i class="fa-sharp fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </nav>
@@ -48,11 +48,106 @@
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
-
-
     </header>
+    <main class="main_registro">
+        <div class="registro_caja">
+            <h3>Registro de Usuario</h3>
+            <form action="/">
+                <div class="registro_usuario">
+                    <label for="nombre"></label>
+                    <input type="text" id="nombre" name="user" placeholder="Nombre y Apellido">
+                    <label for="user"></label>
+                    <input type="text" id="user" name="user" placeholder="Nombre de usuari@">
+                </div>
+                <div class="registro_cumple">
+                    <label for="cumple">Nacimiento</label>
+                    <input type="date" id="cumple" name="cumple">
+                </div>
+                <div class="registro_contraseña">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Contraseña">
+                    <label for="confirma"></label>
+                    <input type="password" id="confirma" name="confirma" placeholder="Confirma Contraseña">
+                </div>
+                <div class="registro_perfil">
+                    <h4>Perfil usuario</h4>
+                    <label>
+                        Comprador
+                        <input type="radio" name="perfil" value="comprador" placeholder="comprador">
+                    </label>
+                    <label>
+                        Vendedor
+                        <input type="radio" name="perfil" value="vendedor" placeholder="vendedor" checked>
+                    </label>
 
 
+                </div>
+                <div class="registro_checkboxes">
+                    <h4>Categorias de Interes</h4>
+                    <label>
+                        <input type="checkbox" name="categoria" value="electro">
+                        Electro
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="categoria" value="moda">
+                        Moda
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="categoria" value="hogar">
+                        Hogar
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="categoria" value="jugueteria">
+                        Juguetería
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="categoria" value="vida_sana">
+                        Vida sana
+                    </label>
+                </div>
+                <div class="registro_foto">
+                    <label for="file">Foto de usuari@</label>
+                    <input type="file" id="archivo" name="archivo">
+                </div>
+                <div class="registro_enviar">
+                    <input type="submit" value="Enviar">
+                </div>
+                <div class="registro_borrar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <i class="fa-solid fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+        <div>
+            <i class="fa-solid fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+        <div>
+            <i class="fa-solid fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+            </div>
+        <div>
+            <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+
+        </div>
+
+    </footer>
 
 </body>
 
